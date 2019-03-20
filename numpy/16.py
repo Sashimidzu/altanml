@@ -1,4 +1,6 @@
 import numpy as np
-X = np.ones((10, 10))
-print (X)
+x = np.ones((3, 3))
+print(x)
+x = np.pad(x, pad_width=1, mode='constant', constant_values=0)
+print(x)
 
